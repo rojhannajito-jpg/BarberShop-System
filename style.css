@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0%;
     padding: 0%;
@@ -33,6 +37,23 @@ body {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    bottom: 20%;
 
 }
 
@@ -172,4 +193,49 @@ body {
     color: #fff;
     text-shadow: 0 0 10px #fff;
 
+}
+
+.about-section-padding {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    min-height: 400px; /* Forces the image to be taller */
+    object-fit: cover; /* Prevents stretching */
+}
+
+/* Improve Font Visibility */
+.about-text h2 {
+    color: #222;
+    line-height: 1.2;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.about-text p {
+    color: #555;
+    font-size: 1.1rem; /* Makes the font bigger */
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Make the button larger and easier to click */
+.btn-warning {
+    padding: 12px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    margin-top: 0;
+    padding: 100px 0;
 }
