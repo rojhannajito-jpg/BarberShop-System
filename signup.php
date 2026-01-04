@@ -1,4 +1,4 @@
-<?php
+<?php 
 include 'db.php';
 if (isset($_POST['signup'])) {
     // These names must match the 'name' attribute in your index.php
@@ -11,4 +11,5 @@ if (isset($_POST['signup'])) {
         echo "<script>alert('Account created!'); window.location.href='index.php';</script>";
     }
 }
+
 ?>
