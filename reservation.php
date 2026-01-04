@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -140,4 +140,5 @@
         <p class="text-secondary small">© 2026 BarberShop Reservation System.</p>
     </div>
 </footer>
+
 </html>
